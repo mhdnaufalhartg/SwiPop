@@ -2,8 +2,9 @@ import {
   faCat,
   faEnvelope,
   faF,
-  faHashtag,
+  faI,
   faPhone,
+  faT,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -13,10 +14,10 @@ const Button = ({ text, color, onClick }) => {
 
   switch (text) {
     case "twitter":
-      icon = faHashtag;
+      icon = faT;
       break;
     case "Instagram":
-      icon = faHashtag;
+      icon = faI;
       break;
     case "Github":
       icon = faCat;
@@ -36,7 +37,7 @@ const Button = ({ text, color, onClick }) => {
 
   return (
     <button
-      className={`px-4 py-2 text-white rounded-md shadow-md ${bgColor}`}
+      className={` ${bgColor} px-4 py-2 text-white rounded-md shadow-md border-y-4 border-white`}
       onClick={onClick}
     >
       {icon && <FontAwesomeIcon icon={icon} className="mr-2" />}
