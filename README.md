@@ -5,7 +5,6 @@ LinkTree KW 12
 Pastikan sudah terinstall nodeJS dan Git di komputer kalian.
 - NodeJS : https://nodejs.org
 - Git    : https://git-scm.com
-Selanjutnya, open terminal dan 
 - Git clone https://github.com/mhdnaufalhartg/SwiPop.git
 - cd SwiPop
 - npm install
