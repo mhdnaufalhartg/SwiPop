@@ -28,7 +28,7 @@ const CardBody = () => {
     window.open(link, "_blank");
   };
   return (
-    <div className="bg-white p-6 lg:p-8 shadow rounded-lg mt-10">
+    <div className="bg-white p-6 lg:p-8 shadow rounded-lg mt-6 sm:mt-10">
       <h1 className="font-bold text-lg lg:text-xl">Connect With Me 🍕 :</h1>
       <div className="brand pt-6 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-y-4 gap-x-4 lg:gap-x-6">
         <Button
