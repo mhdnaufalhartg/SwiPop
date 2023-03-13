@@ -9,3 +9,5 @@ Pastikan sudah terinstall nodeJS dan Git di komputer kalian.
 - cd SwiPop
 - npm install
 - npm run dev
+
+link : https://swipopku.netlify.app
