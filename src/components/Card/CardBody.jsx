@@ -4,7 +4,7 @@ const CardBody = () => {
   const handleClick = (text) => {
     let link = "";
     switch (text.toLowerCase()) {
-      case "Twitter":
+      case "twitter":
         link = "https://twitter.com/mhdnaufalhrtg";
         break;
       case "instagram":
