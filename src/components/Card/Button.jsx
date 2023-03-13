@@ -13,7 +13,7 @@ const Button = ({ text, color, onClick }) => {
   let icon = null;
 
   switch (text) {
-    case "twitter":
+    case "Twitter":
       icon = faT;
       break;
     case "Instagram":

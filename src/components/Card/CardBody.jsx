@@ -4,7 +4,7 @@ const CardBody = () => {
   const handleClick = (text) => {
     let link = "";
     switch (text.toLowerCase()) {
-      case "twitter":
+      case "Twitter":
         link = "https://twitter.com/mhdnaufalhrtg";
         break;
       case "instagram":
@@ -32,7 +32,7 @@ const CardBody = () => {
       <h1 className="font-bold text-lg lg:text-xl">Connect With Me :</h1>
       <div className="brand pt-6 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-y-4 gap-x-4 lg:gap-x-6">
         <Button
-          text={"twitter"}
+          text={"Twitter"}
           color={"bg-blue-600"}
           onClick={() => handleClick("Twitter")}
         ></Button>
