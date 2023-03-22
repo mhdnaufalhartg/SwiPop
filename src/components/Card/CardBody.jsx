@@ -17,7 +17,7 @@ const CardBody = () => {
         link = "mailto:habibdesktop@mail.com";
         break;
       case "whatsapp":
-        link = "https://api.whatsapp.com/send?phone=6282166565565";
+        link = "https://api.whatsapp.com/send?phone=6285156913789";
         break;
       case "facebook":
         link = "https://www.facebook.com/mhdnaufal.ritonga.1";

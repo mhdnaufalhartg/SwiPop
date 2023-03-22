@@ -1,8 +1,12 @@
 import {
+  faCamera,
+  faCameraRetro,
   faCat,
   faEnvelope,
   faF,
+  faHandshakeAngle,
   faI,
+  faKiwiBird,
   faPhone,
   faT,
 } from "@fortawesome/free-solid-svg-icons";
@@ -14,10 +18,10 @@ const Button = ({ text, color, onClick }) => {
 
   switch (text) {
     case "Twitter":
-      icon = faT;
+      icon = faKiwiBird;
       break;
     case "Instagram":
-      icon = faI;
+      icon = faCameraRetro;
       break;
     case "Github":
       icon = faCat;
