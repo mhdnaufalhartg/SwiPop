@@ -10,4 +10,4 @@ Pastikan sudah terinstall nodeJS dan Git di komputer kalian.
 - npm install
 - npm run dev
 
-link app : https://swipopku.netlify.app
+link app : https://swipop-exe.vercel.app
